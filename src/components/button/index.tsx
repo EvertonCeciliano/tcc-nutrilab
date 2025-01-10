@@ -18,4 +18,5 @@ export function Button({ text, img, onPress , color =  'primary'}: ButtonProps) 
       </View> 
     </TouchableOpacity>
   )
+  
 }
