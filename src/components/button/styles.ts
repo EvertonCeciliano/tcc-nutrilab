@@ -14,7 +14,7 @@ export const s = StyleSheet.create({
     paddingVertical: 17,
     width: 356,
     marginHorizontal: 'auto',
-    marginVertical: 15,
+    
   },
 
   primary: {

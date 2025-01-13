@@ -1,23 +1,17 @@
 import { View, Text } from "react-native"
 import { Button } from "../components/button"
+import { Input } from "../components/input"
+import { useState } from "react";
 
 
 
 export default function Index() {
+    const [date, setDate] = useState('');
+    
     return (
+
+
         <View>
-
-            <Text>
-
-            </Text>
-            <Button text="login with google"
-             img={require("../../assets/images/icon.png")} 
-             color="secondary"
-             onPress={() => console.log("Hello")} />
-            <Button text="login with google"
-             img={require("../../assets/images/icon.png")} 
-             color="primary"
-             onPress={() => console.log("Hello")} />
 
 
         </View>
